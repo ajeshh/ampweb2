@@ -5340,7 +5340,7 @@ Sections
 /* Clients
 ================================================================ */
 .section.clients {
-  background-image: url("../../images/polygon-bg-grey.jpg") !important;
+  background: $brand-1 !important;
   padding: 5rem 0;
   text-align: center;
 }

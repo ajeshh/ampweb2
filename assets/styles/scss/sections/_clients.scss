@@ -8,11 +8,9 @@
 // Core Styles
 //-----------------------------------------------------------------
 
-	background-image: url('../../images/polygon-bg-grey.jpg') !important;
+	background: $brand-1; !important;
 	padding: 5rem 0;
 	text-align: center;
-	&:after {
-		background: rgba(0,0,0,0.5) !important;
 	}
 	h5 {
 		margin-top: 0.25em;

@@ -10,7 +10,7 @@
 
 	position: relative;
 	background-size: cover;
-	background-image: url('../../images/polygon-bg-blue.png');
+	background-color: $brand-1;;
 	color: white;
 	&:after {
 		content: "";
