@@ -6107,6 +6107,7 @@ Sections
 }
 .section.secondary .section-title h3 {
   font-weight: 100;
+  color: #16a085;
 }
 .section.secondary .button.border {
   color: #ffffff;
@@ -6225,13 +6226,13 @@ Sections
 
 }
 .stats .stat:nth-child(2) {
-  background: #425E7A;
+  background: #314458;
 }
 .stats .stat:nth-child(3) {
-  background: #577A9E;
+  background: #34495E;
 }
 .stats .stat:nth-child(4) {
-  background: #658FB8;
+  background: #395067;
 }
 
 /* Team Section
