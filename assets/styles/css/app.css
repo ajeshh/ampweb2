@@ -1623,8 +1623,8 @@ form textarea:focus:valid {
 }
 form input {
   display: block;
-  transition: 0.4s;
 }
+
 form input[type="checkbox"], form input[type="radio"] {
   display: inline;
 }

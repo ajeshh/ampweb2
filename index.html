@@ -293,27 +293,30 @@
                 </div>
                 <p>Send us a note and we will send you our latest white paper on how we did achieved a 30% audience conversion for one of our clients</p>
             </header>
-                <form class="h5-valid">
+                <form  action="http://amplive.us9.list-manage.com/subscribe/post" class="h5-valid" method="POST">
+                    <input type="hidden" name="u" value="012efd61b5b9e7a4bd7fdc110">
+                    <input type="hidden" name="id" value="6a3a28c455">
+               <!--  <form class="h5-valid"> -->
             <fieldset>
                 <div class="form-element">
-                    <input type="text" class="box" required>
+                    <input type="text" placeholder="First Name" name="MERGE1" id="MERGE1" class="box" required>
                     <label>First Name</label>
                 </div>
                 <div class="form-element">
-                    <input type="text" class="box">
+                    <input type="text" placeholder="Last Name" name="MERGE2" id="MERGE2" class="box"  tabindex=1>
                     <label>Last Name</label>
                 </div>
                 <div class="form-element">
-                    <input type="tel" class="box">
+                    <input type="tel" placeholder="Phone Number" name="MERGE6" id="MERGE6" class="box" tabindex=2>
                     <label>Phone Number</label>
                 </div>
                 <div class="form-element">
-                    <input type="email" class="box" required>
+                    <input class="box" type="email" placeholder="Email Address" name="MERGE0" id="MERGE0" class="box" required tabindex=3>
                     <label>Email Address</label>
                 </div>
             </fieldset>
             <div class="form-element">
-                <textarea class="box" placeholder="Enter your message" required></textarea>
+                <textarea class="box" placeholder="Enter your message" name="MERGE4" id="MERGE4"required tabindex=4></textarea>
             </div>
             <button type="submit" class="button large full-width brand-1">Submit Message</button>
         </form>
