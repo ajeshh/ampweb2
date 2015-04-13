@@ -5869,7 +5869,7 @@ Sections
   margin-bottom: 5.25em;
 }
 .section header.sep:after {
-  content: "• • •";
+  content: "";
   position: absolute;
   font-size: 24px;
   font-weight: 600;
