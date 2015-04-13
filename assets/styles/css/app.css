@@ -5527,8 +5527,8 @@ Sections
   line-height: 0.97;
 }
 .hero .hero-title h3 {
-  font-size: 0.73em;
-  font-weight: 300;
+  font-size: 0.65em;
+  font-weight: bold;
   text-transform: uppercase;
   color: #16a085;
   line-height: 0.97;
