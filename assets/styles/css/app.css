@@ -860,7 +860,7 @@ body.cp-active .cp-nav-container .copyright, body.cp-active .cp-trigger {
 
 .section.clients .client-logos a img {
   position: relative;
-  top: 50%;
+  /*top: 50%;*/
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -1252,10 +1252,10 @@ Elements
   border-radius: 1.5em;
 }
 .button.brand-1 {
-  background: #2C3E50;
+  background: #F28E00;
 }
 .button.brand-1:hover {
-  background: #127297;
+  background: #2C3E50;
 }
 .button.brand-2 {
   background: #3D5C6D;
@@ -3988,6 +3988,7 @@ body.cp-active .cp-nav-container .main-search {
 }
 .app-footer .footer-content p, .app-footer .footer-content ul {
   font-size: 1.1rem;
+  color: #ffffff;
 }
 .app-footer .footer-content ul b {
   color: white;
@@ -6457,6 +6458,7 @@ Sections
 .section.welcome .earth {
   transition: 0.4s;
   bottom: 0;
+  margin-top: 12em;
 }
 .section.welcome .earth img {
   -webkit-animation-name: spin;
