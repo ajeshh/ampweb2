@@ -3810,13 +3810,13 @@ body.cp-active .cp-nav-container .main-search {
           animation-timing-function: linear;
 }
 .earth .pin-wrapper.active .pin {
-  background: #2C3E50;
+  background: #F28E00;
 }
 .earth .pin {
   width: 55px;
   height: 55px;
   border-radius: 50% 50% 50% 0;
-  background: #3D5C6D;
+  background: #2C3E50;
   cursor: pointer;
   transition: 0.4s;
   position: relative;
@@ -6421,6 +6421,7 @@ Sections
   padding-bottom: 0 !important;
   position: relative;
 }
+
 .section.welcome .container {
   position: relative;
 }
