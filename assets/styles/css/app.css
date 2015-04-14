@@ -5870,7 +5870,6 @@ Sections
   margin-bottom: 5.25em;
 }
 .section header.sep:after {
-  content: "";
   position: absolute;
   font-size: 24px;
   font-weight: 600;
@@ -6006,7 +6005,11 @@ Sections
     font-size: 2rem;
   }
 }
-
+@media (max-width: 720px) {
+  .section header.sep:after {
+  content: "• • •";
+  }
+}
 /* Primary Section
 ================================================================ */
 .section.primary {
