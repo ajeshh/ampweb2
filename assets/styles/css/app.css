@@ -3813,8 +3813,8 @@ body.cp-active .cp-nav-container .main-search {
   background: #16A085;
 }
 .earth .pin {
-  width: 55px;
-  height: 55px;
+  width: 48px;
+  height: 48px;
   border-radius: 50% 50% 50% 0;
   background: #2C3E50;
   cursor: pointer;
@@ -6518,9 +6518,9 @@ Sections
 
 @media (max-width: 460px) {
   .section.welcome .earth .pin {
-    -webkit-transform: scale(0.75) rotate(-45deg);
-        -ms-transform: scale(0.75) rotate(-45deg);
-            transform: scale(0.75) rotate(-45deg);
+    -webkit-transform: scale(0.6) rotate(-45deg);
+        -ms-transform: scale(0.6) rotate(-45deg);
+            transform: scale(0.6) rotate(-45deg);
   }
   .section.welcome .earth {
   margin-top: 12em;
@@ -6532,6 +6532,11 @@ Sections
   }
   .section.welcome .earth {
   margin-top: 8em;
+  }
+  .section.welcome .earth .pin {
+    -webkit-transform: scale(0.6) rotate(-45deg);
+        -ms-transform: scale(0.6) rotate(-45deg);
+            transform: scale(0.6) rotate(-45deg);
   }
 }
 @media (max-width: 1200px) {
