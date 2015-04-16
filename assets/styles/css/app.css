@@ -6461,7 +6461,7 @@ Sections
 .section.welcome .earth {
   transition: 0.4s;
   bottom: 0;
-  margin-top: 12em;
+  margin-top: 3em;
 }
 .section.welcome .earth img {
   -webkit-animation-name: spin;
