@@ -1252,7 +1252,7 @@ Elements
   border-radius: 1.5em;
 }
 .button.brand-1 {
-  background: #F28E00;
+  background: #16A085;
 }
 .button.brand-1:hover {
   background: #2C3E50;
@@ -3810,7 +3810,7 @@ body.cp-active .cp-nav-container .main-search {
           animation-timing-function: linear;
 }
 .earth .pin-wrapper.active .pin {
-  background: #F28E00;
+  background: #16A085;
 }
 .earth .pin {
   width: 55px;
