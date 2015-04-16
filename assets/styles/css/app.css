@@ -6462,6 +6462,7 @@ Sections
   transition: 0.4s;
   bottom: 0;
   margin-top: 1em;
+/*  only for mobile*/
 }
 .section.welcome .earth img {
   -webkit-animation-name: spin;
@@ -6513,16 +6514,24 @@ Sections
   opacity: 0;
   visibility: hidden;
 }
+
+
 @media (max-width: 460px) {
   .section.welcome .earth .pin {
     -webkit-transform: scale(0.75) rotate(-45deg);
         -ms-transform: scale(0.75) rotate(-45deg);
             transform: scale(0.75) rotate(-45deg);
   }
+  .section.welcome .earth {
+  margin-top: 12em;
+  }
 }
 @media (max-width: 720px) {
   .section.welcome .welcome-features h4 {
     font-size: 1rem;
+  }
+  .section.welcome .earth {
+  margin-top: 8em;
   }
 }
 @media (max-width: 1200px) {
