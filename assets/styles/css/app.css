@@ -6616,7 +6616,8 @@ Sections
 .section.welcome .earth {
   transition: 0.4s;
   bottom: 0;
-  margin-top: 5em;
+  margin-top: 5%;
+  -webkit-margin-top-seperate:12em;
 /*  only for mobile*/
 }
 .section.welcome .earth img {
@@ -6678,7 +6679,7 @@ Sections
             transform: scale(0.6) rotate(-45deg);
   }
   .section.welcome .earth {
-  margin-top: 12em;
+  margin-top: 11em;
   }
 }
 @media (max-width: 720px) {
@@ -6686,7 +6687,7 @@ Sections
     font-size: 1rem;
   }
   .section.welcome .earth {
-  margin-top: 8em;
+  margin-top: 9em;
   }
   .section.welcome .earth .pin {
     -webkit-transform: scale(0.6) rotate(-45deg);
