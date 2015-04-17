@@ -5931,12 +5931,12 @@ Sections
 ================================================================ */
 .section.quote {
   padding: 6rem 0;
-  background-color: #2C3E50;
+  background-color: #ffffff;
   overflow: hidden;
 }
 .section.quote blockquote {
   margin: auto;
-  color: white;
+  color: #2C3E50;
   font-weight: lighter;
   line-height: 1;
   transition: 0.4s;
@@ -6236,6 +6236,51 @@ Sections
   color: #ffffff;
 }
 .section.secondary .nav-carousel [class*="nav-"]:hover {
+  background: #ffffff;
+  color: #071216;
+}
+
+/* Pubs Section
+================================================================ */
+.section.pubs {
+  position: relative;
+  background-size: cover;
+  background-image: url("../../images/polygon-bg-ampgreen.png");
+  color: white;
+}
+.section.pubs:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.35);
+}
+.section.pubs .container {
+  position: relative;
+  z-index: 1;
+}
+.section.pubs .section-title h2 {
+  font-weight: 900;
+}
+.section.pubs .section-title h3 {
+  font-weight: 100;
+  color: #ffffff;
+}
+.section.pubs .button.border {
+  color: #ffffff;
+}
+.section.pubs .button.border:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #071216;
+}
+.section.pubs .nav-carousel [class*="nav-"] {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.section.pubs .nav-carousel [class*="nav-"]:hover {
   background: #ffffff;
   color: #071216;
 }
