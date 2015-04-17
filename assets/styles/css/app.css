@@ -858,12 +858,41 @@ body.cp-active .cp-nav-container .copyright, body.cp-active .cp-trigger {
   margin-bottom: 0 !important;
 }
 
+
+
 .section.clients .client-logos a img {
   position: relative;
   /*top: 50%;*/
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.section.publishers .publisher-logos a img {
+  position: relative;
+  /*top: 50%;*/
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.section.publishers .publisher-logos. ul.publogos li {
+    padding: 0 2px;
+    overflow: hidden;
+}
+.section.publishers .publisher-logos. ul.publogos li img {
+    clear: both;
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    border: 2px solid #efefef;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, .5);
+}
+.section.publishers .publisher-logos. ul.publogos li img:first-child {
+    margin-bottom: 4px;
 }
 
 hr.line {
@@ -5399,7 +5428,7 @@ Sections
 @media (min-width: 460px) {
   .section.clients .client-logos a {
     height: 58px;
-    padding: 2em 1.5em;
+    padding: 3em 1.5em;
     display: block;
   }
 }
@@ -5421,6 +5450,87 @@ Sections
             transform: translateY(-50%);
   }
 }
+
+
+/* Publishers
+================================================================ */
+.section.publishers {
+  background: $brand-1 !important;
+  padding: 5rem 0;
+  text-align: center;
+}
+.section.publishers:after {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+.section.publishers h5 {
+  margin-top: 0.25em;
+  font-size: 1.8rem;
+  font-weight: 100;
+  color: #2C3E50;
+}
+.section.publishers .publisher-logos {
+  margin-top: 3rem;
+  position: relative;
+}
+.section.publishers .publisher-logos a {
+  background: rgba(255, 255, 255,1.0);
+  border-radius: 6px;
+  display: inline-block;
+  padding: 2em;
+}
+.section.publishers .publisher-logos a:hover {
+  background: #2C3E50;
+}
+.section.publishers .publishers-slider {
+  position: relative;
+  top: -0.75rem;
+}
+.section.publishers .owl-item img {
+  width: auto;
+  margin: auto;
+}
+.section.publishers .owl-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -2.5rem;
+}
+@media (max-width: 460px) {
+  .section.publishers .publisher-logos a img {
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+    top: auto;
+    max-width: 160px;
+  }
+}
+@media (min-width: 460px) {
+  .section.publishers .publisher-logos a {
+    height: 58px;
+    padding: 3em 1.5em;
+    display: block;
+  }
+}
+@media (min-width: 940px) {
+  .section.publishers {
+    text-align: left;
+  }
+  .section.publishers .title {
+    border-right: 1px solid rgba(0, 0, 0, 0.65);
+    box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.075);
+    padding-right: 1em;
+  }
+  .section.publishers .publisher-logos {
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
+
 
 /* Contact Section
 ================================================================ */

@@ -1,8 +1,8 @@
 
-/* Clients
+/* Publishers
 ================================================================ */
 
-.section.clients {
+.section.publishers {
 
 //-----------------------------------------------------------------
 // Core Styles
@@ -18,7 +18,7 @@
 		font-weight: 100;
 		color: $brand-1;
 	}
-	.client-logos {
+	.publisher-logos {
 		margin-top: 3rem;
 		position: relative;
 		a {
@@ -34,7 +34,7 @@
 			}
 		}
 	}
-	.clients-slider {		
+	.publishers-slider {		
 		position: relative;
 		top: -0.75rem;
 	}
@@ -58,7 +58,7 @@
 //-----------------------------------------------------------------
 
 	@media (max-width: $breakpoint-1) {
-		.client-logos {
+		.publisher-logos {
 			a {
 				img {
 					transform: none;
@@ -74,7 +74,7 @@
 //-----------------------------------------------------------------
 
 	@media (min-width: $breakpoint-1) {
-		.client-logos {
+		.publisher-logos {
 			a {
 				height: 58px;
 				padding: 3em 1.5em;
@@ -90,7 +90,7 @@
 			box-shadow: inset -1px 0 0 rgba(255,255,255,0.075);
 			padding-right: 1em;
 		}
-		.client-logos {
+		.publisher-logos {
 			margin-top: 0;
 			position: absolute;
 			top: 50%;
@@ -98,4 +98,4 @@
 		}
 	}
 
-} // end .clients
+} // end .publishers

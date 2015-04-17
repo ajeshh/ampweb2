@@ -472,6 +472,30 @@ $('.clients-slider').owlCarousel({
 });
 
 /******************************************************************
+Publishers Carousel
+******************************************************************/
+
+$('.publishers-slider').owlCarousel({
+    items: 1,
+    loop: true,
+    dots: true,
+    nav: false,
+    margin: 35,
+    slideBy: 1,
+    autoplay:true,
+    autoplayTimeout: 4000,
+    autoplayHoverPause:true,
+    responsive:{
+        460:{                
+            items: 2
+        },
+        720:{                
+            items: 3
+        }
+    }
+});
+
+/******************************************************************
 Footer Testimonials Carousel
 ******************************************************************/
 
