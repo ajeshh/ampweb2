@@ -1484,6 +1484,24 @@ blockquote cite {
   background: rgba(255, 255, 255, 0.4);
 }
 
+@media (max-width: 0px) {
+  .owl-dots .owl-dot {
+    display: none !important;
+  }
+}
+
+@media (max-width: 460px) {
+  .owl-dots .owl-dot {
+    display: none !important;
+  }
+}
+
+@media (max-width: 720px) {
+  .owl-dots .owl-dot {
+    display: none !important;
+  }
+}
+
 /* Feature Blocks
 ================================================================ */
 .feature-block-wrapper {
