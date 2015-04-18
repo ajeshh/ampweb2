@@ -5559,6 +5559,10 @@ Sections
   position: relative;
   z-index: 2;
 }
+.section.contact header.sep:after {
+  content: "";
+  }
+}
 .section.contact .contact-widgets {
   margin-bottom: 4rem;
 }
@@ -6099,6 +6103,8 @@ Sections
 .section .nav-carousel .nav-next {
   right: 3rem;
 }
+
+
 @media (min-width: 720px) {
   .section header {
     width: 80%;
@@ -6138,6 +6144,9 @@ Sections
   content: "• • •";
   }
 }
+
+  
+
 /* Primary Section
 ================================================================ */
 .section.primary {
