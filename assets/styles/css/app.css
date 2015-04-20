@@ -5305,7 +5305,7 @@ Sections
   position: relative;
   padding: 5rem 0;
   text-align: center;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
 }
 .section.banner:after {
   content: "";
@@ -5314,8 +5314,9 @@ Sections
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url("../../images/section-bg-1.png");
-  opacity: 0.15;
+  background-color: #ffffff;
+  /*background-image: url("../../images/section-bg-1.png");*/
+  /*opacity: 0.15;*/
 }
 .section.banner .container {
   position: relative;
@@ -5325,6 +5326,13 @@ Sections
   font-weight: 100;
   font-size: 1.8rem;
   margin: 0;
+  color: #2C3E50;
+}
+.section.banner h3 {
+  font-weight: 100;
+  font-size: 1.3rem;
+  margin: 0;
+  color: #2C3E50;
 }
 .section.banner h4 b {
   font-weight: 900;
@@ -5338,6 +5346,7 @@ Sections
 .section.banner p {
   font-size: 1.2rem;
   font-weight: lighter;
+  color: #2C3E50;
 }
 .section.banner .meta {
   margin-top: 2em;
