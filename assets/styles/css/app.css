@@ -5303,9 +5303,9 @@ Sections
 ================================================================ */
 .section.banner {
   position: relative;
-  padding: 5rem 0;
+  padding: 3rem 0 1em 0;
   text-align: center;
-  background-color: #16A085;
+  background-color: #ffffff;
 }
 .section.banner:after {
   content: "";
@@ -5314,7 +5314,8 @@ Sections
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #16A085;
+  margin-bottom: -3em;
+  background-color: #ffffff;
   /*background-image: url("../../images/section-bg-1.png");*/
   /*opacity: 0.15;*/
 }
@@ -5326,13 +5327,13 @@ Sections
   font-weight: 100;
   font-size: 1.8rem;
   margin: 0;
-  color: #ffffff;
+  color: #2C3E50;
 }
 .section.banner h3 {
   font-weight: 100;
   font-size: 1.3rem;
   margin: 0;
-  color: #ffffff;
+  color: #2C3E50;
 }
 .section.banner h4 b {
   font-weight: 900;
@@ -5346,7 +5347,7 @@ Sections
 .section.banner p {
   font-size: 1.2rem;
   font-weight: lighter;
-  color: #ffffff;
+  color: #2C3E50;
 }
 .section.banner .meta {
   margin-top: 2em;
@@ -5563,6 +5564,7 @@ Sections
 ================================================================ */
 .section.contact {
   /* Animations */
+  padding-top: 3em;
 }
 .section.contact .container {
   position: relative;
@@ -5572,6 +5574,12 @@ Sections
   content: "";
   }
 }
+.section.contact header {
+  margin-bottom: 1em;
+  }
+}
+
+
 .section.contact .contact-widgets {
   margin-bottom: 4rem;
 }
@@ -6159,7 +6167,7 @@ Sections
 ================================================================ */
 .section.beginning {
   position: relative;
-  padding: 5rem 0;
+  padding: 4rem 0 1em 0;
   text-align: left;
   background-color: #ffffff;
 }
