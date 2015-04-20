@@ -5574,10 +5574,7 @@ Sections
   content: "";
   }
 }
-.section.contact header {
-  margin-bottom: 1em;
-  }
-}
+
 
 
 .section.contact .contact-widgets {
@@ -6519,6 +6516,109 @@ Sections
     vertical-align: middle;
   }
 }
+
+/* StatsTitle Section
+================================================================ */
+.section.statstitle {
+  position: relative;
+  padding: 3rem 0;
+  background-color: #2C3E50;
+}
+.section.statstitle:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #2C3E50;
+  /*background-image: url("../../images/section-bg-1.png");*/
+  /*opacity: 0.15;*/
+}
+.section.statstitle .container {
+  position: relative;
+  z-index: 2;
+}
+.section.statstitle h4 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.8rem;
+  margin: 0;
+  color: #ffffff;
+
+}
+.section.statstitle h3 {
+  font-weight: 100;
+  font-size: 1.3rem;
+  margin: 0;
+  color: #ffffff;
+}
+.section.statstitle h4 b {
+  font-weight: 900;
+}
+.section.statstitle p a:not(.button), .section.statstitle .meta a:not(.button) {
+  border-bottom: 1px dotted;
+}
+.section.statstitle p a:not(.button):hover, .section.statstitle .meta a:not(.button):hover {
+  color: #127297;
+}
+.section.statstitle p {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: #ffffff;
+}
+.section.statstitle .meta {
+  margin-top: 2em;
+}
+.section.statstitle .meta .button {
+  margin-right: 0.25em;
+}
+.section.statstitle.alt {
+  background: #2C3E50;
+}
+.section.statstitle.alt,
+.section.statstitle.alt a,
+.section.statstitle.alt h4 i {
+  color: white;
+}
+.section.statstitle.alt i {
+  font-weight: 300;
+}
+.section.statstitle.alt .button {
+  background: none;
+  border: 2px solid #ffffff;
+  color: white;
+}
+.section.statstitle.alt .button:hover {
+  background: none;
+  background: #ffffff;
+  color: #2C3E50;
+  border-color: #ffffff;
+}
+.section.statstitle.alt a:not(.button):hover {
+  color: #ffffff;
+}
+@media (min-width: 940px) {
+  .section.statstitle {
+    text-align: left;
+  }
+  .section.statstitle .content, .section.statstitle .meta {
+    float: left;
+  }
+  .section.statstitle .content {
+    width: 65%;
+    width: calc(100% - 310px);
+  }
+  .section.statstitle .meta {
+    margin-top: 0.4em;
+    padding-left: 20px;
+  }
+  .section.statstitle p {
+    margin-top: 0;
+  }
+}
+
+
 
 /* Stats Section
 ================================================================ */
