@@ -525,7 +525,7 @@ body {
   line-height: 1.4;
   font-family: "Lato", sans-serif;
   color: #111111;
-  background-color: #111111;
+  background-color: #ffffff;
   font-size: 1rem;
 }
 
@@ -4019,7 +4019,7 @@ body.cp-active .cp-nav-container .main-search {
   background: #425E7A;
 }
 .app-footer .footer-content {
-  padding: 5em 0;
+  padding: 2em 0;
   color: #b1b1b1;
 }
 .app-footer .footer-content h3 {
@@ -5998,7 +5998,7 @@ Sections
 /* Section
 ================================================================ */
 .section {
-  padding: 6rem 0;
+  padding: 5rem 0;
 }
 .section .section {
   padding: 0;
@@ -6154,7 +6154,115 @@ Sections
   }
 }
 
-  
+
+/* Beginning Section
+================================================================ */
+.section.beginning {
+  position: relative;
+  padding: 5rem 0;
+  text-align: left;
+  background-color: #ffffff;
+}
+.section.beginning:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  /*background-image: url("../../images/section-bg-1.png");*/
+  /*opacity: 0.15;*/
+}
+.section.beginning .container {
+  position: relative;
+  z-index: 2;
+}
+.section.beginning h4 {
+  font-weight: 100;
+  font-size: 1.8rem;
+  margin: 0;
+  color: #2C3E50;
+}
+.section.beginning h3 {
+  font-weight: 100;
+  font-size: 1.3rem;
+  margin: 0;
+  color: #2C3E50;
+}
+.section.beginning h2 {
+  font-weight: 100;
+  font-size: 1.8rem;
+  margin: 0;
+  color: #2C3E50;
+}
+.section.beginning h4 b {
+  font-weight: 900;
+}
+.section.beginning p a:not(.button), .section.beginning .meta a:not(.button) {
+  border-bottom: 1px dotted;
+}
+.section.beginning p a:not(.button):hover, .section.beginning .meta a:not(.button):hover {
+  color: #127297;
+}
+.section.beginning p {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: #2C3E50;
+}
+.section.beginning ol {
+  color: #2C3E50;
+}
+.section.beginning .meta {
+  margin-top: 2em;
+}
+.section.beginning .meta .button {
+  margin-right: 0.25em;
+}
+.section.beginning.alt {
+  background: #ffffff;
+}
+.section.beginning.alt,
+.section.beginning.alt a,
+.section.beginning.alt h4 i {
+  color: white;
+}
+.section.beginning.alt i {
+  font-weight: 300;
+}
+.section.beginning.alt .button {
+  background: none;
+  border: 2px solid #ffffff;
+  color: white;
+}
+.section.beginning.alt .button:hover {
+  background: none;
+  background: #ffffff;
+  color: #2C3E50;
+  border-color: #ffffff;
+}
+.section.beginning.alt a:not(.button):hover {
+  color: #ffffff;
+}
+@media (min-width: 940px) {
+  .section.beginning {
+    text-align: left;
+  }
+  .section.beginning .content, .section.beginning .meta {
+    float: left;
+  }
+  .section.beginning .content {
+    width: 65%;
+    width: calc(100% - 310px);
+  }
+  .section.beginning .meta {
+    margin-top: 0.4em;
+    padding-left: 20px;
+  }
+  .section.beginning p {
+    margin-top: 0;
+  }
+}
 
 /* Primary Section
 ================================================================ */
