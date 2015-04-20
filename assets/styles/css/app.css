@@ -6225,7 +6225,11 @@ Sections
 .section.beginning.alt,
 .section.beginning.alt a,
 .section.beginning.alt h4 i {
-  color: white;
+  color: #2C3E50;
+}
+.section.beginning.alt a {
+  color: #2C3E50;
+  text-decoration: underline;
 }
 .section.beginning.alt i {
   font-weight: 300;
