@@ -6164,9 +6164,9 @@ Sections
 ================================================================ */
 .section.beginning {
   position: relative;
-  padding: 4rem 0 1em 0;
+  padding: 4rem 0;
   text-align: left;
-  background-color: #ffffff;
+  background-color: #16A085;
 }
 .section.beginning:after {
   content: "";
@@ -6175,7 +6175,7 @@ Sections
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #16A085;
   /*background-image: url("../../images/section-bg-1.png");*/
   /*opacity: 0.15;*/
 }
@@ -6187,19 +6187,19 @@ Sections
   font-weight: 100;
   font-size: 1.8rem;
   margin: 0;
-  color: #2C3E50;
+  color: #ffffff;
 }
 .section.beginning h3 {
   font-weight: 100;
   font-size: 1.3rem;
   margin: 0;
-  color: #2C3E50;
+  color: #ffffff;
 }
 .section.beginning h2 {
   font-weight: 100;
   font-size: 1.8rem;
   margin: 0;
-  color: #2C3E50;
+  color: #ffffff;
 }
 .section.beginning h4 b {
   font-weight: 900;
@@ -6213,10 +6213,10 @@ Sections
 .section.beginning p {
   font-size: 1.2rem;
   font-weight: lighter;
-  color: #2C3E50;
+  color: #ffffff;
 }
 .section.beginning ol {
-  color: #2C3E50;
+  color: #ffffff;
 }
 .section.beginning .meta {
   margin-top: 2em;
