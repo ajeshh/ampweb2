@@ -3263,6 +3263,7 @@ Modules
   font-family: "Lato", sans-serif;
   font-weight: 900;
   margin-bottom: 0.25em;
+  text-align: center;
 }
 .blog-items .blog-item h4 a {
   color: #111111;
@@ -3271,6 +3272,7 @@ Modules
 .blog-items .blog-item h5 {
   font-size: 1.2rem;
   font-weight: 300;
+  text-align: center;
 }
 .blog-items .blog-item p {
   font-weight: 100;
@@ -3286,9 +3288,11 @@ Modules
   margin-bottom: 1.5em;
   display: block;
   border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 .blog-items .thumb img {
-  transition: 0.4s;
+  transition: 0.2s;
   min-width: 100%;
   position: relative;
   -webkit-transform: scale(1) translateY(-25%);
@@ -7125,7 +7129,10 @@ body.about .section.welcome .pin {
 /* Blog Pages
 ================================================================ */
 body.blog-index .blog-items .thumb {
-  height: 200px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
 .post-meta {
@@ -7134,8 +7141,10 @@ body.blog-index .blog-items .thumb {
 }
 .post-meta .thumb {
   display: block;
-  height: 200px;
+  height: 300px;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto
 }
 .post-meta .thumb img {
   width: 100%;
