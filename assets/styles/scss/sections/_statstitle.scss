@@ -1,8 +1,8 @@
 
-/* Banner Section
+/* statstitle Section
 ================================================================ */
 
-.section.banner {
+.section.statstitle {
 
 //-----------------------------------------------------------------
 // Core Styles
@@ -36,6 +36,14 @@
 			font-weight: 900;
 		}
 	}
+	h3 {
+		font-weight: 100;
+		font-size: $font-size-3;
+		margin: 0;
+		b {
+			font-weight: 900;
+		}
+	}
 	p, .meta {			
 		a:not(.button) {
 			border-bottom: 1px dotted;
@@ -55,11 +63,11 @@
 		}
 	}
 	&.alt {
-		background: $brand-1;
+		background: white;
 		&, 
 		a, 
 		h4 i {
-			color: white;
+			color: $brand-1;
 		}
 		i {
 			font-weight: 300;
@@ -87,7 +95,7 @@
 //-----------------------------------------------------------------
 
 	@media (min-width: $breakpoint-3) {		
-		text-align: left;
+		text-align: center;
 		.content, .meta {
 			float: left;
 		}
@@ -104,4 +112,4 @@
 		}
 	}
 
-} // end .section.banner
+} // end .section.statstitle

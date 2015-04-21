@@ -5573,12 +5573,17 @@ Sections
 .section.contact .container {
   position: relative;
   z-index: 2;
+
 }
 .section.contact header.sep:after {
   content: "";
   }
 }
 
+.section.contact .section-title h2{
+  font-weight: 900;
+  font-size: 2.85em;
+}
 
 
 .section.contact .contact-widgets {
@@ -6559,20 +6564,202 @@ Sections
 
 /* StatsTitle Section
 ================================================================ */
-.section.section.statstitle .section-title h2 {
+
+
+
+/*.section.statstitle .section-title h2 {
   font-size: 2.85rem;
-  font-weight: 100;
+  font-weight: 900;
   margin: 0.05em 0;
   color: #ffffff;
   vertical-align: middle;
 
 }
 
-.section.section.statstitle {
-  padding: 0.1em ;
+.section.statstitle {
+  padding: 4em;
   margin: 0;
+  background-color: #2c3e50;
+}
+.section.statstitle .wcu-content {
+  position: relative;
+  min-height: 450px;
+}
+.section.statstitle .section-title h2 {
+  font-size: 2.85rem;
+  font-weight: 900; 
+}
+.section.statstitle .wcu-graphic {
+  width: 60%;
+  margin: auto;
+}
+.section.statstitle .wcu-feature {
+  text-align: center;
+  transition: 0.4s;
+  opacity: 1;
+}
+
+.section.statstitle.inactive .wcu-left {
+  left: -3rem !important;
+}
+.section.statstitle.inactive .wcu-right {
+  right: -3rem !important;
+}
+.section.statstitle.section-map:after {
+  bottom: -5rem;
+}
+@media (max-width: 940px) {
+  .section.statstitle .wcu-graphic {
+    margin-bottom: 4rem;
+  }
+  .section.statstitle .wcu-feature:not(:last-child) {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 940px) {
+  .section.statstitle .wcu-feature {
+    position: absolute;
+    width: 30%;
+  }
+  .section.statstitle .wcu-feature:after {
+    content: "";
+    position: absolute;
+    top: 1.75rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 130px;
+    transition: 0.4s;
+  }
+  .section.statstitle .wcu-feature.wcu-left {
+    padding-right: 2rem;
+  }
+  .section.statstitle .wcu-feature.wcu-left:after {
+    -webkit-transform: translateX(70%);
+        -ms-transform: translateX(70%);
+            transform: translateX(70%);
+  }
+  .section.statstitle .wcu-feature.wcu-right {
+    padding-left: 2rem;
+  }
+  .section.statstitle .wcu-feature.wcu-right:after {
+    -webkit-transform: translateX(-70%);
+        -ms-transform: translateX(-70%);
+            transform: translateX(-70%);
+  }
+  .section.statstitle .wcu-graphic {
+    width: 40%;
+  }
+}
+
+
+
+*/
+.section.statstitle {
+  position: relative;
+  padding: 3.5rem 0;
+  text-align: center;
   background-color: #2C3E50;
 }
+.section.statstitle:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #2C3E50;
+  opacity: 0.15;
+}
+.section.statstitle .container {
+  position: relative;
+  z-index: 2;
+}
+
+.section.statstitle .h4 {
+  font-weight: 100;
+  font-size: 1.8rem;
+  margin: 0;
+
+}
+.section.statstitle h2 {
+  font-weight: 900;
+  font-size: 2.85rem;
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.section.statstitle h4 b {
+  font-weight: 900;
+}
+.section.statstitle p a:not(.button), .section.statstitle .meta a:not(.button) {
+  border-bottom: 1px dotted;
+}
+.section.statstitle p a:not(.button):hover, .section.statstitle .meta a:not(.button):hover {
+  color: #127297;
+}
+.section.statstitle p {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.section.statstitle .meta {
+  margin-top: 2em;
+}
+.section.statstitle .meta .button {
+  margin-right: 0.25em;
+}
+.section.statstitle.alt {
+  background: #1795C5;
+}
+.section.statstitle.alt,
+.section.statstitle.alt a,
+.section.statstitle.alt h4 i {
+  color: white;
+}
+.section.statstitle.alt i {
+  font-weight: 300;
+}
+.section.statstitle.alt .button {
+  background: none;
+  border: 2px solid #ffffff;
+  color: white;
+}
+.section.statstitle.alt .button:hover {
+  background: none;
+  background: #ffffff;
+  color: #1795C5;
+  border-color: #ffffff;
+}
+.section.statstitle.alt a:not(.button):hover {
+  color: #ffffff;
+}
+@media (min-width: 940px) {
+  .section.statstitle {
+    text-align: left;
+  }
+  .section.statstitle .content, .section.statstitle .meta {
+    float: left;
+  }
+  .section.statstitle .content {
+    width: 65%;
+    width: calc(100% - 310px);
+  }
+  .section.statstitle .meta {
+    margin-top: 0.4em;
+    padding-left: 20px;
+  }
+  .section.statstitle p {
+    margin-top: 0;
+  }
+}
+
 
 /* Stats Section
 ================================================================ */
