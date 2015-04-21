@@ -2197,7 +2197,7 @@ ol.clear {
   position: relative;
   width: 650px;
   max-width: 90%;
-  background: #f7f7f7;
+  background: #F7F7F7;
   border-radius: 0.75rem;
   padding: 1.5rem;
   margin: auto;
@@ -6294,7 +6294,7 @@ Sections
 /* Primary Section
 ================================================================ */
 .section.primary {
-  background: #f7f7f7;
+  background: #ffffff;
 }
 .section.primary:not(.welcome) header {
   -webkit-transform: scale(1);
