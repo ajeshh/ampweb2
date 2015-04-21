@@ -6060,6 +6060,7 @@ Sections
 .section .section-title h2 {
   font-size: 1.8rem;
   line-height: 0.97;
+  font-weight: 900;
 }
 .section .section-title h3 {
   font-size: 1.4rem;
@@ -6196,11 +6197,10 @@ Sections
   color: #ffffff;
 }
 .section.beginning h2 {
-  font-weight: 100;
-  font-size: 1.8rem;
-  margin: 0;
-  color: #ffffff;
-}
+  font-size: 2.85rem;
+  font-weight: 900;
+  color: #ffffff; 
+} 
 .section.beginning h4 b {
   font-weight: 900;
 }
@@ -6321,7 +6321,6 @@ Sections
 }
 .section.primary .section-title h4:before {
   content: "";
-  border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
   width: 100%;
   position: absolute;
   left: 0;
@@ -6370,6 +6369,7 @@ Sections
   z-index: 1;
 }
 .section.secondary .section-title h2 {
+  font-size: 2.85rem;
   font-weight: 900;
 }
 .section.secondary .section-title h3 {
@@ -6392,6 +6392,9 @@ Sections
   background: #ffffff;
   color: #071216;
 }
+
+
+
 
 /* Pubs Section
 ================================================================ */
@@ -6460,6 +6463,30 @@ Sections
 .section.services.inactive .nav-carousel {
   opacity: 0;
   visibility: hidden;
+}
+.section.services ul.tiles {
+    float:left;
+    width:100%;
+    margin:0;
+    padding:10px 0 0 0;
+    padding-left:0;
+    list-style:none
+}
+.section.services ul.tiles>li {
+    position:relative;
+    float:left;
+    width:49%;
+    margin:0 .5% 2% 0;
+    padding-left:100px
+}
+@media(max-width:768px){.section.services ul.tiles>li{width:100%;margin-right:0}}.section.services ul.tiles>li>h4{margin-bottom:10px}.section.services ul.tiles>li i {
+    position:absolute;
+    top:-20px;
+    left:0;
+    width:100px;
+    font-size:55px;
+    text-align:center;
+    color:#069
 }
 @media (max-width: 940px) {
   .section.services > .container {
@@ -6556,6 +6583,15 @@ Sections
 .section.statstitle h4 b {
   font-weight: 900;
 }
+.section.statstitle h2 {
+  font-weight: 900;
+  font-size: 2.85rem;
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+
 .section.statstitle p a:not(.button), .section.statstitle .meta a:not(.button) {
   border-bottom: 1px dotted;
 }
@@ -6988,6 +7024,10 @@ Sections
   position: relative;
   min-height: 450px;
 }
+.section.why-choose-us .section-title h2 {
+  font-size: 2.85rem;
+  font-weight: 900; 
+}
 .section.why-choose-us .wcu-graphic {
   width: 60%;
   margin: auto;
@@ -7035,7 +7075,6 @@ Sections
   .section.why-choose-us .wcu-feature:not(:last-child) {
     padding-bottom: 2rem;
     margin-bottom: 2rem;
-    border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
   }
 }
 @media (min-width: 940px) {
@@ -7052,7 +7091,6 @@ Sections
     margin: auto;
     width: 130px;
     transition: 0.4s;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   }
   .section.why-choose-us .wcu-feature.wcu-left {
     padding-right: 2rem;
