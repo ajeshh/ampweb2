@@ -6785,7 +6785,7 @@ Sections
   margin: 0;
   color: #ffffff;
   text-align: center;
-  position: absolute;
+  position: relative;
     top: 50%;
     left: 50%;
     margin-right: -50%;
