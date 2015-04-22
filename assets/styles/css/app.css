@@ -5985,7 +5985,7 @@ Sections
 ================================================================ */
 .section.quote {
   padding: 6rem 0;
-  background-color: #ffffff;
+  background-color: #F7F7F7;
   overflow: hidden;
 }
 .section.quote blockquote {
@@ -6364,7 +6364,11 @@ Sections
     font-size: 2.2rem;
   }
 }
-
+@media (max-width: 480px) {
+  .section.primary .section-title h2 {
+    font-size: 1.50rem;
+  }
+}
 /* Secondary Section
 ================================================================ */
 .section.secondary {
@@ -6416,7 +6420,7 @@ Sections
 .section.requestdemo {
   position: relative;
   padding: 7rem 0;
-  padding-top: 1.50rem;
+  padding-top: 3.50rem;
   padding-bottom: 4em;
   text-align: center;
   background-color: #16A085;
@@ -6750,6 +6754,7 @@ Sections
 .section.statstitle {
   position: relative;
   padding: 3.5rem 0;
+  padding-top: 3.5em;
   text-align: center;
   background-color: #2C3E50;
 }
@@ -6851,6 +6856,12 @@ Sections
   }
 }
 
+/*@media (max-width: 480px) {
+  .section.statstitle h2 {
+    font-size: 1.50rem;
+  }
+}
+*/
 
 /* Stats Section
 ================================================================ */
@@ -7308,7 +7319,11 @@ Sections
     width: 40%;
   }
 }
-
+@media (max-width: 480px) {
+  .section.why-choose-us h2 {
+    font-size: 1.50rem;
+  }
+}
 /******************************************************************
 Pages
 ******************************************************************/
